@@ -1,0 +1,5 @@
+greeting = ("Hello! Welcome!")
+print(greeting)
+hometown = input("What city did you grow up in? \n")
+pet = input("What is your favorite type of pet?\n")
+print ("Your band name is " + hometown + ' ' + pet + "!" + ' ' "\nHave a Happy New year! ")
