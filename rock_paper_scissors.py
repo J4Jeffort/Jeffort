@@ -1,5 +1,4 @@
 import random
-
 rock = '''
     _______
 ---'   ____)
@@ -8,7 +7,6 @@ rock = '''
       (____)
 ---.__(___)
 '''
-
 paper = '''
     _______
 ---'   ____)____
@@ -17,7 +15,6 @@ paper = '''
          _______)
 ---.__________)
 '''
-
 scissors = '''
     _______
 ---'   ____)____
@@ -28,10 +25,8 @@ scissors = '''
 '''
 game_images = [rock, paper, scissors]
 user_choice = int(input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors.\n"))
-
-
 if user_choice >= 3:
-    print("invalid number. you lost ")
+    print("invalid number. you lost. Use your brain next time ")
 else:
     print("You chose:")
     print(game_images[user_choice])
